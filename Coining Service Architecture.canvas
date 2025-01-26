@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"80b08a1b78a52796","type":"text","text":"Web\n(Next.js)","x":-292,"y":-249,"width":250,"height":60},
+		{"id":"e89ef8351c7d52c4","type":"text","text":"API Gateway\n(Nginx)","x":40,"y":-190,"width":280,"height":60},
+		{"id":"7a905c0fd75baf96","type":"text","text":"Mobile\n(Flutter)","x":-292,"y":-130,"width":250,"height":60},
+		{"id":"130d890e40d9f243","type":"text","text":"\bCoining API\n(FastAPI)","x":40,"y":-70,"width":280,"height":60},
+		{"id":"f4dcef61b0b41dfe","type":"text","text":"Database\n(PostgreSQL/TimescaleDB)","x":400,"y":-70,"width":250,"height":60},
+		{"id":"fe52388b2ca3cffa","type":"text","text":"Chaching DB\n(Redis)","x":400,"y":-160,"width":250,"height":60},
+		{"id":"6c9593a9a8bd3235","type":"text","text":"Worker Queue\n(RabbitMQ)","x":400,"y":20,"width":250,"height":60},
+		{"id":"d49c682800ec9a40","type":"text","text":"Backtester Worker\n(Python)","x":740,"y":-70,"width":250,"height":60},
+		{"id":"130ee8975b45c522","type":"text","text":"Trader Worker\n(Python)","x":740,"y":20,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"ba7bef1ee9d15976","fromNode":"80b08a1b78a52796","fromSide":"right","toNode":"e89ef8351c7d52c4","toSide":"left"},
+		{"id":"40f5063d573d89e7","fromNode":"7a905c0fd75baf96","fromSide":"right","toNode":"e89ef8351c7d52c4","toSide":"left"},
+		{"id":"10858270520f5cec","fromNode":"e89ef8351c7d52c4","fromSide":"bottom","toNode":"130d890e40d9f243","toSide":"top"},
+		{"id":"cbee6767eb4bb444","fromNode":"130d890e40d9f243","fromSide":"right","toNode":"f4dcef61b0b41dfe","toSide":"left"},
+		{"id":"2609ce764d812d1f","fromNode":"130d890e40d9f243","fromSide":"right","toNode":"fe52388b2ca3cffa","toSide":"left","fromEnd":"arrow"},
+		{"id":"ab9a6a7b02a44bea","fromNode":"130d890e40d9f243","fromSide":"right","toNode":"6c9593a9a8bd3235","toSide":"left","fromEnd":"arrow"},
+		{"id":"0275df0806b516c9","fromNode":"6c9593a9a8bd3235","fromSide":"right","toNode":"d49c682800ec9a40","toSide":"left"},
+		{"id":"106d8cd058d9c081","fromNode":"6c9593a9a8bd3235","fromSide":"right","toNode":"130ee8975b45c522","toSide":"left"}
+	]
+}
