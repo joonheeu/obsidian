@@ -1,3 +1,5 @@
 .obsidian/
 
+*.swp
+
 .DS_Store
